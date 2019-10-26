@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Humanum est</h1>
+    <header>
+        HEAD
+    </header>
+    <main>
+        <?php $this->loadViewInTemplate($viewName, $viewData); ?>
+    </main>
+    <footer>
+        Footer
+    </footer>
+    
 </body>
 </html>
