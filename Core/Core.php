@@ -32,7 +32,7 @@ class Core {
 		}
 
 		else{
-			$currentController = "HomeController";
+			$currentController = "controllerController";
 			$currentAction = "index";
 		}
 
